@@ -1,0 +1,27 @@
+{
+  "name": "vulnerable-notes-mcp",
+  "version": "1.0.0",
+  "description": "A deliberately vulnerable MCP server for security testing - DO NOT USE IN PRODUCTION",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "security-testing",
+    "vulnerable"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
