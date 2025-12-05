@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Vulnerable Notes MCP Server
- * Version: 1.0.1
+ * Version: 1.0.2
  *
  * WARNING: This server contains INTENTIONAL security vulnerabilities
  * for testing the SAFE-MCP scanner. DO NOT use in production!
@@ -100,3 +100,4 @@ async function main() {
 }
 
 main().catch(console.error);
+// test force-push
