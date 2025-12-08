@@ -106,3 +106,5 @@ This code is intentionally insecure. The vulnerabilities demonstrated here are f
 ## Security Testing
 
 This repository is used for testing SAFE-MCP Scanner integration.
+
+Testing scanner evidence mapping fix.
