@@ -99,3 +99,5 @@ async function main() {
 }
 
 main().catch(console.error);
+
+// Test scanner with prioritized techniques - Tue Dec  9 10:47:52 PST 2025
