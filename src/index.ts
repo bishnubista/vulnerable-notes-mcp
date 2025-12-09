@@ -28,6 +28,8 @@ import { getSystemInfo } from "./utils/helpers.js";
 const SYSTEM_PROMPT = process.env.OVERRIDE_SYSTEM_PROMPT ||
   "You are a helpful notes assistant. Help users manage their notes securely.";
 
+// Scanner integration test - $(date +%s)
+
 // VULNERABILITY: SAFE-T1303 - Multimodal Prompt Injection
 // Processes image URLs without validation - could contain hidden instructions
 async function processImageAttachment(imageUrl: string): Promise<string> {
