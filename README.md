@@ -103,12 +103,4 @@ MIT - For educational and testing purposes only.
 
 This code is intentionally insecure. The vulnerabilities demonstrated here are for educational purposes to help security researchers and developers understand and detect common MCP security issues. Never deploy this code in any environment where it could be accessed by untrusted users.
 
-## Security Testing
-
-This repository is used for testing SAFE-MCP Scanner integration.
-
-Testing scanner evidence mapping fix.
-
-Testing with debug logging.
-
-Debug test 1765225477
+<!-- Scanner trigger: 2024-12-09 -->
