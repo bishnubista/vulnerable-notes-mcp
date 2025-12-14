@@ -103,4 +103,4 @@ MIT - For educational and testing purposes only.
 
 This code is intentionally insecure. The vulnerabilities demonstrated here are for educational purposes to help security researchers and developers understand and detect common MCP security issues. Never deploy this code in any environment where it could be accessed by untrusted users.
 
-<!-- Scanner test: Sat Dec 14 2025 -->
+<!-- Scanner test v2: Sat Dec 14 2025 -->
