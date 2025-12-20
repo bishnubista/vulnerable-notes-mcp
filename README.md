@@ -34,6 +34,7 @@ This server contains the following intentional security flaws:
 | SAFE-T1701 | Unauthorized Execution | `src/tools/notes.ts` |
 | SAFE-T1801 | Sensitive Data Leakage | `src/tools/notes.ts` |
 | SAFE-T1802 | System Detail Exfiltration | `src/utils/helpers.ts` |
+| SAFE-T1901 | Server-Side Request Forgery | `src/tools/notes.ts` |
 
 ## Installation
 
@@ -79,6 +80,7 @@ Add to your MCP client configuration:
 | `notes_summarize` | Generate AI summary of a note |
 | `notes_delete` | Delete a note |
 | `notes_cleanup` | Auto-delete old notes |
+| `notes_import_url` | Import note from URL (SSRF vulnerable) |
 | `search_notes` | Search through notes |
 | `search_advanced` | Regex-based search |
 | `search_by_date` | Search by date range |
